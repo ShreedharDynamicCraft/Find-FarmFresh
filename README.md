@@ -63,8 +63,8 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 <!-- <h3 align="center">Products displayed under categories</h3> -->
 <div display="flex" align="center">
-       <img src="https://github.com/user-attachments/assets/c00a2793-44fe-4453-b96c-ee8960547914" alt="image1" width="49%"/>
-       <img src="https://github.com/user-attachments/assets/ac5584a2-0f74-4dd9-8305-efc775bf4cbf" alt="image1" width="49%"/>
+       <img src="https://github.com/user-attachments/assets/b53ab44b-35de-4df1-b012-9dc2a55d0d4c" alt="image1" width="49%"/>
+       <img src="https://github.com/user-attachments/assets/ea6b53d8-d8f0-4fc3-8a81-76b193e717e3" alt="image1" width="49%"/>
 </div>
 
 <!-- <h3 align="center">Product Detail Page</h3>
@@ -79,7 +79,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 <!-- <h3 align="center">Farmer's Profile</h3> -->
 <div display="flex" align="center">
-    <img src="https://github.com/user-attachments/assets/8f3ea102-4802-49b7-9d01-51bddb63ff87" alt="image1" width="49%"/>
+    <img src="https://github.com/user-attachments/assets/a899482c-55e0-44e4-9394-047cd530ec99" alt="image1" width="49%"/>
     <img src="https://github.com/user-attachments/assets/6fb27a5e-48ec-494f-bbf4-79bf6277abc1" alt="image2" width="49%"/>
     <!-- <img src="https://github.com/user-attachments/assets/d121772c-fec4-455f-bd03-2b12c7a37781" alt="image2" width="49%"/>
     <img src="https://github.com/user-attachments/assets/ae633af6-08a5-4635-a9b5-20bd68053474" alt="image2" width="49%"/> -->
