@@ -121,6 +121,76 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
+## API Routes
 
+### 1. Authentication Routes
+
+| Action |  Route  | Method |
+|:-----|:--------:|------:|
+| User login for farmers and Consumers   | `/api/v1/auth/login` | **POST** |
+| Checks if email is already registered    |  `/api/v1/auth/userExists/email/:email`  |   **GET** |
+| Checks if name is already registered   | `/api/v1/auth/userExists/:name` |    **GET** |
+| Register Farmer   | `/api/v1/auth/register/farmer` |    **POST** |
+| Register Consumer   | `/api/v1/auth/register/consumer` |    **POST** |
+| Gets User Profile Information if token is present   | `/api/v1/auth` |    **GET** |
+
+
+### 2. Farmer Routes
+
+| Action |  Route  | Method |
+|:-----|:--------:|------:|
+| Gets products of Farmer   | `/api/v1/farmers/:farmerID/products` | **GET** |
+| Add comment to Farmer    |  `/api/v1/farmers/:farmerID/comments`  |   **PATCH** |
+| Get Farmer profile information   | `/api/v1/farmers/:farmerID` |    **GET** |
+| Update Farmer   | `/api/v1/farmers/` |    **PATCH** |
+
+
+### 3. Consumer Routes
+
+| Action |  Route  | Method |
+|:-----|:--------:|------:|
+| Gets products in shopping cart of Consumer   | `/api/v1/consumers/shoppingCart` | **GET** |
+| Adds farmer to following list of Consumer    |  `/api/v1/consumers/followFarmer`  |   **PATCH** |
+| Removes farmer from following list of Consumer   | `/api/v1/consumers/unFollowFarmer` |    **PATCH** |
+| Get Consumer profile Information   | `/api/v1/consumers/:consumerID` |    **GET** |
+| Update Consumer   | `/api/v1/consumers` |    **PATCH** |
+
+
+### 4. Product Routes
+
+| Action |  Route  | Method |
+|:-----|:--------:|------:|
+| Get All Products   | `/api/v1/products/` | **GET** |
+| Add Product   | `/api/v1/products/` | **POST** |
+| Get Top Rated Products    |  `/api/v1/products/topRatedProducts`  |   **GET** |
+| Get Discounted Products    |  `/api/v1/products/discountedProducts`  |   **GET** |
+| Get Recently added products of Farmer   | `/api/v1/products/lastThirtyDayProducts/:farmerID` |    **GET** |
+| Get Product Detail   | `/api/v1/products/:productID` |    **GET** |
+| Delete Product   | `/api/v1/products/:productID` |    **DELETE** |
+| Update Product   | `/api/v1/products/:productID` |    **PATCH** |
+| Get Products of Category   | `/api/v1/products/category/:parentCategory` |    **GET** |
+| Get Product Detail for Order   | `/api/v1/products/orderDetail/:productID` |    **GET** |
+
+
+### 5. Order Routes
+
+| Action |  Route  | Method |
+|:-----|:--------:|------:|
+| Get Orders of User   | `/api/v1/orders/` | **GET** |
+| Add Order   | `/api/v1/orders/` | **POST** |
+| Get Orders that need Review    |  `/api/v1/orders/reviewOrders`  |   **GET** |
+| Get Earning stats of Farmer For Graph    |  `/api/v1/orders/getEarningsForLast30Days`  |   **GET** |
+| Update Order   | `/api/v1/orders/:orderID` |    **PATCH** |
+| Delete Order   | `/api/v1/orders/:orderID` |    **DELETE** |
+
+
+### 6. Comment Routes
+
+| Action |  Route  | Method |
+|:-----|:--------:|------:|
+| Get Number of Comments for Farmer   | `/api/v1/comments/farmer/:farmerID/count` | **GET** |
+| Get Comments of Farmer   | `/api/v1/comments//farmer/:farmerID` | **GET** |
+| Get Number of Comments for Product   | `/api/v1/comments/product/:productID/count` | **GET** |
+| Get Comments of Product   | `/api/v1/comments/product/:productID` | **GET** |
 
 <p align="right"><a href="#readme-top">back to top</a></p>
