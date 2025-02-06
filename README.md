@@ -52,7 +52,7 @@
 
 FarmFresh Finder is a platform designed to seamlessly connect farmers with consumers, fostering a direct and transparent exchange of fresh, locally sourced produce. Our application empowers farmers by providing a digital space to showcase their yields while offering consumers a convenient way to discover and purchase high-quality, sustainably grown products.
 
-<h3 align="center">Consumer's Profile</h3>
+<!-- <h3 align="center">Consumer's Profile</h3> -->
 <div display="flex" align="center">
        <img src="https://github.com/user-attachments/assets/48ec8886-4a44-47cc-916c-ff35af453c82" alt="image1" width="49%"/>
        <img src="https://github.com/user-attachments/assets/ca45ba1b-c05b-4886-8456-144e740b3fe6" alt="image1" width="49%"/>
@@ -61,7 +61,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <!-- <div align="center">
 </div> -->
 
-<h3 align="center">Products displayed under categories</h3>
+<!-- <h3 align="center">Products displayed under categories</h3> -->
 <div display="flex" align="center">
        <img src="https://github.com/user-attachments/assets/c00a2793-44fe-4453-b96c-ee8960547914" alt="image1" width="49%"/>
        <img src="https://github.com/user-attachments/assets/ac5584a2-0f74-4dd9-8305-efc775bf4cbf" alt="image1" width="49%"/>
@@ -71,13 +71,13 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <div align="center">
 </div> -->
 
-<h3 align="center">Shopping Cart Page</h3>
+<!-- <h3 align="center">Shopping Cart Page</h3> -->
 <div display="flex" align="center">
     <img src="https://github.com/user-attachments/assets/0f109b2f-8fc9-4922-aae4-724240f2da00" alt="image1" width="49%"/>
     <img src="https://github.com/user-attachments/assets/e94bd2aa-55fa-4c2b-af1b-8213653eafa1" alt="image1" width="49%"/>
 </div>
 
-<h3 align="center">Farmer's Profile</h3>
+<!-- <h3 align="center">Farmer's Profile</h3> -->
 <div display="flex" align="center">
     <img src="https://github.com/user-attachments/assets/8f3ea102-4802-49b7-9d01-51bddb63ff87" alt="image1" width="49%"/>
     <img src="https://github.com/user-attachments/assets/6fb27a5e-48ec-494f-bbf4-79bf6277abc1" alt="image2" width="49%"/>
@@ -89,7 +89,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <div align="center">
 </div> -->
 
-<h3 align="center">Sign Up</h3>
+<!-- <h3 align="center">Sign Up</h3> -->
 <div display="flex" align="center">
        <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/6e3359da-2dcb-49b2-94fb-fcfbfb2f7b43" alt="image1" width="49%"/>
        <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/e3255f6f-fd4f-4f9c-a8ce-261537175a15" alt="image1" width="49%"/>
@@ -98,9 +98,9 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <!-- <div align="center">
 </div> -->
 
-<h3 align="center">Log In</h3>
-       <img src="https://github.com/user-attachments/assets/1837b757-7666-43dd-bc34-c8f3f977796d" alt="image1" width="70%"/>
+<!-- <h3 align="center">Log In</h3> -->
 <div align="center">
+    <img src="https://github.com/user-attachments/assets/1837b757-7666-43dd-bc34-c8f3f977796d" alt="image1" width="70%"/>
 </div>
 
 
