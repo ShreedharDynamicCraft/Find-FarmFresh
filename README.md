@@ -54,8 +54,8 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 <h3 align="center">Consumer's Profile</h3>
 <div display="flex" align="center">
-       <img src="https://github.com/user-attachments/assets/48ec8886-4a44-47cc-916c-ff35af453c82" alt="image1" width="70%"/>
-       <img src="https://github.com/user-attachments/assets/ca45ba1b-c05b-4886-8456-144e740b3fe6" alt="image1" width="70%"/>
+       <img src="https://github.com/user-attachments/assets/48ec8886-4a44-47cc-916c-ff35af453c82" alt="image1"/>
+       <img src="https://github.com/user-attachments/assets/ca45ba1b-c05b-4886-8456-144e740b3fe6" alt="image1"/>
 </div>
 
 <div align="center">
