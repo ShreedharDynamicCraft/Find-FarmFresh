@@ -9,7 +9,7 @@ import {
   updateFarmer,
   addCommentsToFarmer,
 } from '../controllers/farmers'
-import uploadFileMiddleware from '../middleware/uploadFile'
+import upload from '../db/cloudinary'
 
 router.route('/:farmerID/products').get(getProductsOfFarmer)
 router
@@ -21,7 +21,7 @@ router
   .patch(
     authenticateMiddleware,
     authorizeFarmer,
-    uploadFileMiddleware.single('image'),
+    upload.single('image'),
     updateFarmer,
   )
 
