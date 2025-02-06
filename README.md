@@ -43,14 +43,14 @@
 
 <h2>About the Project:</h2>
 
-<div align="center">
+<!-- <div align="center">
        <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/7c2ff919-aeae-421d-b300-0f32aa1de144" alt="image1" width="75%"/>
-</div>
+</div> -->
+
+FarmFresh Finder is a platform designed to seamlessly connect farmers with consumers, fostering a direct and transparent exchange of fresh, locally sourced produce. Our application empowers farmers by providing a digital space to showcase their yields while offering consumers a convenient way to discover and purchase high-quality, sustainably grown products.
 
 <h3 align="center" >!! Note: This is a Demo Project !!</h3>
 <p align="center">This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</p>
-
-FarmFresh Finder is a platform designed to seamlessly connect farmers with consumers, fostering a direct and transparent exchange of fresh, locally sourced produce. Our application empowers farmers by providing a digital space to showcase their yields while offering consumers a convenient way to discover and purchase high-quality, sustainably grown products.
 
 <!-- <h3 align="center">Consumer's Profile</h3> -->
 <div display="flex" align="center">
@@ -121,13 +121,6 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-<h2>Built with</h2>
 
-- <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-- <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-- <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-- <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" />
-- <img src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white" />
-- <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 
 <p align="right"><a href="#readme-top">back to top</a></p>
