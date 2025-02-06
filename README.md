@@ -129,7 +129,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 |:-----|:--------:|------:|
 | User login for farmers and Consumers   | `/api/v1/auth/login` | **POST** |
 | Checks if email is already registered    |  `/api/v1/auth/userExists/email/:email`  |   **GET** |
-| Checks if name is already registered   | `/api/v1/auth/userExists/:name` |    **GET** |
+| Checks if name is already registered   | `/api/v1/auth/userExists/name/:name` |    **GET** |
 | Register Farmer   | `/api/v1/auth/register/farmer` |    **POST** |
 | Register Consumer   | `/api/v1/auth/register/consumer` |    **POST** |
 | Gets User Profile Information if token is present   | `/api/v1/auth` |    **GET** |
