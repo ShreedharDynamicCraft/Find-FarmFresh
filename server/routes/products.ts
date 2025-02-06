@@ -15,12 +15,12 @@ import {
 } from '../controllers/products'
 import authenticateMiddleware from '../middleware/authentication'
 import authorizeFarmer from '../middleware/authorizationFarmer'
-import uploadFileMiddleware from '../middleware/uploadFile'
+import upload from '../db/cloudinary'
 
 router.route('/').get(getAllProducts).post(
   authenticateMiddleware,
   authorizeFarmer,
-  uploadFileMiddleware.single('images'),
+  upload.single('images'),
   // upload.array('productImage', 3),
   createProduct,
 )
@@ -33,7 +33,7 @@ router
   .delete(authenticateMiddleware, authorizeFarmer, deleteProduct)
   .patch(
     authenticateMiddleware,
-    uploadFileMiddleware.single('images'),
+    upload.single('images'),
     updateProduct,
   )
 router.route('/category/:parentCategory').get(getProductsOfCategory)

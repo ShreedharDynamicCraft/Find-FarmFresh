@@ -20,11 +20,9 @@ const updateConsumer = async (req: Request, res: Response) => {
     parsedLocationCoordinates = JSON.parse(locationCoordinates)
   }
 
-  const image = req.file?.filename || req.body.image
-
   let updateFields: any = {}
 
-  if (image) updateFields.image = image
+  if (req.file) updateFields.image = (req.file as Express.Multer.File).path
   if (req.body.location) updateFields.location = req.body.location
   if (req.body.mobileNo) updateFields.mobileNo = req.body.mobileNo
   if (req.body.locationCoordinates) {

@@ -31,11 +31,16 @@ export type RemovedCommentType =
 const createProduct = async (req: Request, res: Response) => {
   const { userID, name } = req.user
 
+  if (!req.file) {
+    return res.status(400).json({ error: "No file uploaded" });
+  }
+
+  const imageUrl = (req.file as Express.Multer.File).path;
   const product = await Product.create({
     ...req.body,
     farmerID: userID,
     farmerName: name,
-    images: req.file?.filename,
+    images: imageUrl,
   })
   res.status(StatusCodes.CREATED).json({ product })
 }
@@ -149,9 +154,9 @@ const updateProduct = async (req: Request, res: Response) => {
   const { productID } = req.params
 
   let updateFields: any = {}
-  let images = req.file ? req.file.filename : req.body.images
+  // let images = req.file ? req.file.filename : req.body.images
 
-  if (images) updateFields.images = images
+  if (req.file) updateFields.images = (req.file as Express.Multer.File).path;
   if (req.body.title) updateFields.title = req.body.title
   if (req.body.price) updateFields.price = req.body.price
   if (req.body.parentCategory)

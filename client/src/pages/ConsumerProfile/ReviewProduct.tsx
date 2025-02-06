@@ -70,7 +70,7 @@ const ReviewProduct: React.FC<ReviewProductProps> = ({
           <div className="w-32 h-32 flex items-center justify-center overflow-hidden">
             <img
               className="object-cover w-full h-full"
-              src={`${APIURL}/uploads/${details.image}`}
+              src={details.image}
               alt=""
             />
           </div>

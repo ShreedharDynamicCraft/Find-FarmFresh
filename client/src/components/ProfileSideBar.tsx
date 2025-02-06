@@ -100,7 +100,7 @@ const ProfileSideBar: React.FC<ProductCardProps> = ({
         <div className="w-74 h-64 flex items-center justify-center overflow-hidden">
           <img
             className="object-cover w-full h-full"
-            src={`${APIURL}/uploads/${image}`}
+            src={image}
             alt=""
           />
         </div>

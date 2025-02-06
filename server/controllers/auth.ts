@@ -11,9 +11,15 @@ const registerFarmer = async (req: Request, res: Response) => {
   const { locationCoordinates } = req.body
   const parsedLocationCoordinates = JSON.parse(locationCoordinates)
 
+  if (!req.file) {
+    return res.status(400).json({ error: "No file uploaded" });
+  }
+
+  const imageUrl = (req.file as Express.Multer.File).path;
+
   const farmer = (await Farmer.create({
     ...req.body,
-    image: req.file?.filename,
+    image: imageUrl,
     locationCoordinates: parsedLocationCoordinates,
   })) as IFarmer
 
@@ -32,9 +38,16 @@ const registerFarmer = async (req: Request, res: Response) => {
 const registerConsumer = async (req: Request, res: Response) => {
   const { locationCoordinates } = req.body
   const parsedLocationCoordinates = JSON.parse(locationCoordinates)
+
+  if (!req.file) {
+    return res.status(400).json({ error: "No file uploaded" });
+  }
+
+  const imageUrl = (req.file as Express.Multer.File).path;
+
   const consumer = (await Consumer.create({
     ...req.body,
-    image: req.file?.filename,
+    image: imageUrl,
     locationCoordinates: parsedLocationCoordinates,
   })) as IConsumer
   const token = consumer.createJWT()

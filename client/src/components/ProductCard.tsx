@@ -106,7 +106,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           >
             <img
               className="object-cover w-full h-full"
-              src={`${APIURL}/uploads/${images[0]}`}
+              src={images[0]}
               alt=""
             />
           </div>

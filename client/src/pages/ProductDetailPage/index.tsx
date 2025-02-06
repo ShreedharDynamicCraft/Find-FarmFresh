@@ -239,7 +239,7 @@ function ProductDetailPage() {
                       <div className="w-40 h-40 md:w-96 md:h-110 flex items-center justify-center overflow-hidden">
                         <img
                           className="object-cover w-full h-full"
-                          src={`${APIURL}/uploads/${image}`}
+                          src={`${image}`}
                           alt=""
                         />
                       </div>

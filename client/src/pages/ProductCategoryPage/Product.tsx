@@ -21,7 +21,7 @@ const Product: React.FC<ProductPropType> = ({ product }) => {
           <div className="w-40 h-40 md:w-64 md:h-64 mb-3 flex items-center justify-center overflow-hidden">
             <img
               className="object-cover w-full h-full"
-              src={`${APIURL}/uploads/${product.images[0]}`}
+              src={product.images[0]}
               alt=""
             />
           </div>

@@ -277,7 +277,7 @@ const Order: React.FC<OrderPropsType> = ({ order }) => {
                       <div className="h-14 w-12 flex items-center justify-center overflow-hidden rounded-md">
                         <img
                           className="object-cover w-full h-full"
-                          src={`${APIURL}/uploads/${product.images[0]}`}
+                          src={product.images[0]}
                           alt=""
                         />
                       </div>

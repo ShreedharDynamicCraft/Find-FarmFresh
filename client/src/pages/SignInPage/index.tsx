@@ -76,31 +76,33 @@ const SignInPage = () => {
   })
 
   const demoLogin = async (role: string) => {
-    let loginData
+    let signUpData
     console.log('role', role)
 
     if (role === 'Farmer') {
       console.log('yes')
 
-      loginData = {
+      signUpData = {
         email: 'oliviathompson219@gmail.com',
         password: 'Olivia219',
       }
     } else {
-      loginData = {
+      signUpData = {
         email: 'liamjohnson879@gmail.com',
         password: 'Liam$879',
       }
     }
 
     try {
+      console.log(signUpData)
+
       const response = await fetch(`${APIURL}/api/v1/auth/login`, {
         method: 'POST',
         mode: 'cors',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(loginData),
+        body: JSON.stringify(signUpData),
       })
 
       const responseData = await response.json()

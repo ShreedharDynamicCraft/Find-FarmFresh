@@ -27,11 +27,9 @@ const updateFarmer = async (req: Request, res: Response) => {
   const { locationCoordinates } = req.body
   const parsedLocationCoordinates = JSON.parse(locationCoordinates)
 
-  const image = req.file?.filename || req.body.image
-
   const updateFields = {
     ...(req.body.mobileNo && { mobileNo: req.body.mobileNo }),
-    ...(image && { image: image }),
+    ...(req.file && { image: (req.file as Express.Multer.File).path }),
     ...(req.body.description && { description: req.body.description }),
     ...(req.body.location && { location: req.body.location }),
     ...(req.body.locationCoordinates && {

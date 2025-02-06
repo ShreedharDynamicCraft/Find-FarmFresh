@@ -10,7 +10,7 @@ import {
   unFollowFarmer,
   getShoppingCart,
 } from '../controllers/consumers'
-import uploadFileMiddleware from '../middleware/uploadFile'
+import upload from '../db/cloudinary'
 
 router
   .route('/shoppingCart')
@@ -27,7 +27,7 @@ router
   .patch(
     authMiddleware,
     authorizeConsumer,
-    uploadFileMiddleware.single('image'),
+    upload.single('image'),
     updateConsumer,
   )
 
