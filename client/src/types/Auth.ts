@@ -58,7 +58,7 @@ export interface ProfileSidebarInformationType {
     }
     rating: number
   }
-  image: string
+  image: string | File
   name: string
   description?: string
   mobileNo: string
