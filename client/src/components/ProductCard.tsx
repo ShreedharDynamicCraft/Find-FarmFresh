@@ -182,13 +182,13 @@ const ProductCard: React.FC<ProductCardProps> = ({
                 >
                   <EditIcon fontSize="small" />
                 </button>
-                <button
+                {/* <button
                   title="delete"
                   className="rounded-md py-0.5 px-1 hover:bg-gray-300"
                   onClick={handleProductDelete}
                 >
                   <DeleteIcon fontSize="small" />
-                </button>
+                </button> */}
                 <button
                   onClick={handleProductUpdate}
                   title="display"
