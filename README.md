@@ -78,19 +78,45 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 </div>
 
 ## 🖥️ Prerequisites
+The v22.12.0 version of Node is required for the installation and building of this application.
 
 ## ⚙️ Installation
+1. Clone this repository by running the following command in your terminal:
+```
+git clone https://github.com/Ktn-mariam/Find-FarmFresh.git
+cd Find-FarmFresh
+```
+2. Run the following command in the frontend side to install the dependencies:
+```
+cd client
+npm install
+```
+3. Run the following command in the server side to install the dependencies:
+```
+cd server
+npm install
+```
 
 ## 📚 Envirnoment variables
+This project is connected to a mongodb database and cloudinary for storing images. Create a .env file in the server side of the application with the following required variables:
+```
+MONGO_URI=
+JWT_SECRET=
+JWT_LIFETIME=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+CLOUDINARY_URL=
+```
 
 ## ▶️ Run the project
 
-1. To run React frontend:
+1. To run the React frontend:
 ```
 cd client
 npm start
 ```
-2. To run NodeJS backend:
+2. To run the NodeJS backend:
 ```
 cd server
 npm start
