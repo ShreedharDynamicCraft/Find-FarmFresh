@@ -114,8 +114,6 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=Cloudinary&logoColor=white" alt="farmfresh-logo" />
 </div>
 
-<p align="right"><a href="#readme-top">back to top</a></p>
-
 ## 🛠️ Schema Design 
 
 <p align="right"><a href="#readme-top">back to top</a></p>
