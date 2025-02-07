@@ -3,15 +3,6 @@
 <p display="flex" align="center" justify="center">
     <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/148e7c5a-ad43-480c-bb06-725f77eae9df" alt="farmfresh-logo" />
     <h3 align="center">Find Farm Fresh</h3>
-</p>
-<p align="center">
-    <em>Connecting consumers with local farmers for a direct and fresh produce experience</em> 🧑‍🌾
-    <br/>
-    <a href="">View Demo</a>
-    ·
-    <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Request Feature</a>
     <div display="flex" align="center">
       <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="farmfresh-logo" />
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="farmfresh-logo" />
@@ -24,6 +15,15 @@
       <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=Cloudinary&logoColor=white" alt="farmfresh-logo" />
       <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="farmfresh-logo" />
     </div>
+</p>
+<p align="center">
+    <em>Connecting consumers with local farmers for a direct and fresh produce experience</em> 🧑‍🌾
+    <br/>
+    <a href="">View Demo</a>
+    ·
+    <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Request Feature</a>
   </p>
 
 <details>
