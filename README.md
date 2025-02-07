@@ -112,6 +112,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <img src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white" alt="farmfresh-logo" />
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="farmfresh-logo" />
 <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=Cloudinary&logoColor=white" alt="farmfresh-logo" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="farmfresh-logo" />
 </div>
 
 ## 🛠️ Schema Design 
