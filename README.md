@@ -1,4 +1,4 @@
-<p align="center">🌟 Please give this repo a star if you liked it!</p>
+<p align="center">🌟 Give this repo a star if you liked it!</p>
 &nbsp;
 
 <p display="flex" align="center" justify="center">
@@ -57,8 +57,6 @@
 
 FarmFresh Finder is a platform designed to seamlessly connect farmers with consumers, fostering a direct and transparent exchange of fresh, locally sourced produce. Our application empowers farmers by providing a digital space to showcase their yields while offering consumers a convenient way to discover and purchase high-quality, sustainably grown products.
 
-<p>This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</p>
-
 <div display="flex" align="center">
        <img src="https://github.com/user-attachments/assets/48ec8886-4a44-47cc-916c-ff35af453c82" alt="image1" width="49%"/>
        <img src="https://github.com/user-attachments/assets/ca45ba1b-c05b-4886-8456-144e740b3fe6" alt="image1" width="49%"/>
@@ -78,6 +76,8 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
     <img src="https://github.com/user-attachments/assets/a899482c-55e0-44e4-9394-047cd530ec99" alt="image1" width="49%"/>
     <img src="https://github.com/user-attachments/assets/6fb27a5e-48ec-494f-bbf4-79bf6277abc1" alt="image2" width="49%"/>
 </div>
+
+<em align="center">This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</em>
 
 ## 🖥️ Prerequisites
 The v22.12.0 version of Node is required for the installation and building of this application.
