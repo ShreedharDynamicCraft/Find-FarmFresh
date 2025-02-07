@@ -1,9 +1,9 @@
+<p align="center">🌟 Please give this repo a star if you liked it!</p>
 &nbsp;
 
 <p display="flex" align="center" justify="center">
     <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/148e7c5a-ad43-480c-bb06-725f77eae9df" alt="farmfresh-logo" />
     <h3 align="center">Find Farm Fresh</h3>
-    <p align="center">🌟 Please give this repo a star if you liked it!</p>
     <div display="flex" align="center">
       <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="farmfresh-logo" />
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="farmfresh-logo" />
