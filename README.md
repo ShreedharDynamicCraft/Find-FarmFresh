@@ -39,70 +39,50 @@
   </ol>
 </details>
 
-&nbsp;
 
-<h2>About the Project:</h2>
+## 🧐 Description
 
-<!-- <div align="center">
-       <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/7c2ff919-aeae-421d-b300-0f32aa1de144" alt="image1" width="75%"/>
-</div> -->
 
 FarmFresh Finder is a platform designed to seamlessly connect farmers with consumers, fostering a direct and transparent exchange of fresh, locally sourced produce. Our application empowers farmers by providing a digital space to showcase their yields while offering consumers a convenient way to discover and purchase high-quality, sustainably grown products.
 
-<!-- <h3 align="center" >!! Note: This is a Demo Project !!</h3> -->
+
 <p>This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</p>
 
-<!-- <h3 align="center">Consumer's Profile</h3> -->
+
 <div display="flex" align="center">
        <img src="https://github.com/user-attachments/assets/48ec8886-4a44-47cc-916c-ff35af453c82" alt="image1" width="49%"/>
        <img src="https://github.com/user-attachments/assets/ca45ba1b-c05b-4886-8456-144e740b3fe6" alt="image1" width="49%"/>
 </div>
 
-<!-- <div align="center">
-</div> -->
-
-<!-- <h3 align="center">Products displayed under categories</h3> -->
 <div display="flex" align="center">
        <img src="https://github.com/user-attachments/assets/b53ab44b-35de-4df1-b012-9dc2a55d0d4c" alt="image1" width="49%"/>
        <img src="https://github.com/user-attachments/assets/ea6b53d8-d8f0-4fc3-8a81-76b193e717e3" alt="image1" width="49%"/>
 </div>
 
-<!-- <h3 align="center">Product Detail Page</h3>
-<div align="center">
-</div> -->
 
-<!-- <h3 align="center">Shopping Cart Page</h3> -->
 <div display="flex" align="center">
     <img src="https://github.com/user-attachments/assets/0f109b2f-8fc9-4922-aae4-724240f2da00" alt="image1" width="49%"/>
     <img src="https://github.com/user-attachments/assets/e94bd2aa-55fa-4c2b-af1b-8213653eafa1" alt="image1" width="49%"/>
 </div>
 
-<!-- <h3 align="center">Farmer's Profile</h3> -->
+
 <div display="flex" align="center">
     <img src="https://github.com/user-attachments/assets/a899482c-55e0-44e4-9394-047cd530ec99" alt="image1" width="49%"/>
     <img src="https://github.com/user-attachments/assets/6fb27a5e-48ec-494f-bbf4-79bf6277abc1" alt="image2" width="49%"/>
-    <!-- <img src="https://github.com/user-attachments/assets/d121772c-fec4-455f-bd03-2b12c7a37781" alt="image2" width="49%"/>
-    <img src="https://github.com/user-attachments/assets/ae633af6-08a5-4635-a9b5-20bd68053474" alt="image2" width="49%"/> -->
 </div>
-<!-- 
-<h3 align="center">Order's Page</h3>
-<div align="center">
-</div> -->
 
-<!-- <h3 align="center">Sign Up</h3> -->
-<!-- <div display="flex" align="center">
-       <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/6e3359da-2dcb-49b2-94fb-fcfbfb2f7b43" alt="image1" width="49%"/>
-       <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/e3255f6f-fd4f-4f9c-a8ce-261537175a15" alt="image1" width="49%"/>
-</div> -->
+## 🖥️ Prerequisites
 
-<!-- <div align="center">
-</div> -->
+## ⚙️ Installation
 
-<!-- <h3 align="center">Log In</h3> -->
-<!-- <div align="center">
-    <img src="https://github.com/user-attachments/assets/1837b757-7666-43dd-bc34-c8f3f977796d" alt="image1" width="70%"/>
-</div> -->
 
+## 📚 Envirnoment variables
+
+## ▶️ Run the project
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## 💡 Features
 
 ### As a consumer, you can:
 
@@ -121,12 +101,21 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-## API Routes
+## 🤖 Technologies Used
 
-### 1. Authentication Routes
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## 🛠️ Schema Design 
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## 🚧 API Documentation
+
+### 1. 🛡️ Authentication Routes
 
 | Action |  Route  | Method |
-|:-----|:-----|:-----|
+|:-----|:--------:|------:|
 | User login for farmers and Consumers   | `api/v1/auth/login` | **POST** |
 | Checks if email is already registered    |  `api/v1/auth/userExists/email/:email`  |   **GET** |
 | Checks if name is already registered   | `api/v1/auth/userExists/name/:name` |    **GET** |
@@ -135,7 +124,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 | Gets User Profile Information if token is present   | `api/v1/auth` |    **GET** |
 
 
-### 2. Farmer Routes
+### 2. 🧑‍🌾 Farmer Routes
 
 | Action |  Route  | Method |
 |:-----|:--------:|------:|
@@ -145,7 +134,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 | Update Farmer   | `api/v1/farmers/` |    **PATCH** |
 
 
-### 3. Consumer Routes
+### 3. 👨 Consumer Routes
 
 | Action |  Route  | Method |
 |:-----|:--------:|------:|
@@ -156,7 +145,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 | Update Consumer   | `api/v1/consumers` |    **PATCH** |
 
 
-### 4. Product Routes
+### 4. 🌾 Product Routes
 
 | Action |  Route  | Method |
 |:-----|:--------:|------:|
@@ -172,7 +161,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 | Get Product Detail for Order   | `api/v1/products/orderDetail/:productID` |    **GET** |
 
 
-### 5. Order Routes
+### 5. 🚚 Order Routes
 
 | Action |  Route  | Method |
 |:-----|:--------:|------:|
@@ -184,7 +173,7 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 | Delete Order   | `api/v1/orders/:orderID` |    **DELETE** |
 
 
-### 6. Comment Routes
+### 6. 💬 Comment Routes
 
 | Action |  Route  | Method |
 |:-----|:--------:|------:|
@@ -192,5 +181,11 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 | Get Comments of Farmer   | `api/v1/comments//farmer/:farmerID` | **GET** |
 | Get Number of Comments for Product   | `api/v1/comments/product/:productID/count` | **GET** |
 | Get Comments of Product   | `api/v1/comments/product/:productID` | **GET** |
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+
+## 🔗 Deployment
+
 
 <p align="right"><a href="#readme-top">back to top</a></p>
