@@ -12,6 +12,18 @@
     <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Report Bug</a>
     ·
     <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Request Feature</a>
+    <div display="flex" align="center">
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=Cloudinary&logoColor=white" alt="farmfresh-logo" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="farmfresh-logo" />
+    </div>
   </p>
 
 <details>
@@ -39,15 +51,11 @@
   </ol>
 </details>
 
-
 ## 🧐 Description
-
 
 FarmFresh Finder is a platform designed to seamlessly connect farmers with consumers, fostering a direct and transparent exchange of fresh, locally sourced produce. Our application empowers farmers by providing a digital space to showcase their yields while offering consumers a convenient way to discover and purchase high-quality, sustainably grown products.
 
-
 <p>This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</p>
-
 
 <div display="flex" align="center">
        <img src="https://github.com/user-attachments/assets/48ec8886-4a44-47cc-916c-ff35af453c82" alt="image1" width="49%"/>
@@ -59,12 +67,10 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
        <img src="https://github.com/user-attachments/assets/ea6b53d8-d8f0-4fc3-8a81-76b193e717e3" alt="image1" width="49%"/>
 </div>
 
-
 <div display="flex" align="center">
     <img src="https://github.com/user-attachments/assets/0f109b2f-8fc9-4922-aae4-724240f2da00" alt="image1" width="49%"/>
     <img src="https://github.com/user-attachments/assets/e94bd2aa-55fa-4c2b-af1b-8213653eafa1" alt="image1" width="49%"/>
 </div>
-
 
 <div display="flex" align="center">
     <img src="https://github.com/user-attachments/assets/a899482c-55e0-44e4-9394-047cd530ec99" alt="image1" width="49%"/>
@@ -74,7 +80,6 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 ## 🖥️ Prerequisites
 
 ## ⚙️ Installation
-
 
 ## 📚 Envirnoment variables
 
@@ -102,20 +107,8 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ## 🤖 Technologies Used
-<div display="flex">
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=Cloudinary&logoColor=white" alt="farmfresh-logo" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="farmfresh-logo" />
-</div>
 
-## 🛠️ Schema Design 
+## 🛠️ Schema Design
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -123,78 +116,71 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 ### 1. 🛡️ Authentication Routes
 
-| Action |  Route  | Method |
-|:-----|:--------:|------:|
-| User login for farmers and Consumers   | `api/v1/auth/login` | **POST** |
-| Checks if email is already registered    |  `api/v1/auth/userExists/email/:email`  |   **GET** |
-| Checks if name is already registered   | `api/v1/auth/userExists/name/:name` |    **GET** |
-| Register Farmer   | `api/v1/auth/register/farmer` |    **POST** |
-| Register Consumer   | `api/v1/auth/register/consumer` |    **POST** |
-| Gets User Profile Information if token is present   | `api/v1/auth` |    **GET** |
-
+| Action                                            |                 Route                 |   Method |
+| :------------------------------------------------ | :-----------------------------------: | -------: |
+| User login for farmers and Consumers              |          `api/v1/auth/login`          | **POST** |
+| Checks if email is already registered             | `api/v1/auth/userExists/email/:email` |  **GET** |
+| Checks if name is already registered              |  `api/v1/auth/userExists/name/:name`  |  **GET** |
+| Register Farmer                                   |     `api/v1/auth/register/farmer`     | **POST** |
+| Register Consumer                                 |    `api/v1/auth/register/consumer`    | **POST** |
+| Gets User Profile Information if token is present |             `api/v1/auth`             |  **GET** |
 
 ### 2. 🧑‍🌾 Farmer Routes
 
-| Action |  Route  | Method |
-|:-----|:--------:|------:|
-| Gets products of Farmer   | `api/v1/farmers/:farmerID/products` | **GET** |
-| Add comment to Farmer    |  `api/v1/farmers/:farmerID/comments`  |   **PATCH** |
-| Get Farmer profile information   | `api/v1/farmers/:farmerID` |    **GET** |
-| Update Farmer   | `api/v1/farmers/` |    **PATCH** |
-
+| Action                         |                Route                |    Method |
+| :----------------------------- | :---------------------------------: | --------: |
+| Gets products of Farmer        | `api/v1/farmers/:farmerID/products` |   **GET** |
+| Add comment to Farmer          | `api/v1/farmers/:farmerID/comments` | **PATCH** |
+| Get Farmer profile information |     `api/v1/farmers/:farmerID`      |   **GET** |
+| Update Farmer                  |          `api/v1/farmers/`          | **PATCH** |
 
 ### 3. 👨 Consumer Routes
 
-| Action |  Route  | Method |
-|:-----|:--------:|------:|
-| Gets products in shopping cart of Consumer   | `api/v1/consumers/shoppingCart` | **GET** |
-| Adds farmer to following list of Consumer    |  `api/v1/consumers/followFarmer`  |   **PATCH** |
-| Removes farmer from following list of Consumer   | `api/v1/consumers/unFollowFarmer` |    **PATCH** |
-| Get Consumer profile Information   | `api/v1/consumers/:consumerID` |    **GET** |
-| Update Consumer   | `api/v1/consumers` |    **PATCH** |
-
+| Action                                         |               Route               |    Method |
+| :--------------------------------------------- | :-------------------------------: | --------: |
+| Gets products in shopping cart of Consumer     |  `api/v1/consumers/shoppingCart`  |   **GET** |
+| Adds farmer to following list of Consumer      |  `api/v1/consumers/followFarmer`  | **PATCH** |
+| Removes farmer from following list of Consumer | `api/v1/consumers/unFollowFarmer` | **PATCH** |
+| Get Consumer profile Information               |  `api/v1/consumers/:consumerID`   |   **GET** |
+| Update Consumer                                |        `api/v1/consumers`         | **PATCH** |
 
 ### 4. 🌾 Product Routes
 
-| Action |  Route  | Method |
-|:-----|:--------:|------:|
-| Get All Products   | `api/v1/products/` | **GET** |
-| Add Product   | `api/v1/products/` | **POST** |
-| Get Top Rated Products    |  `api/v1/products/topRatedProducts`  |   **GET** |
-| Get Discounted Products    |  `api/v1/products/discountedProducts`  |   **GET** |
-| Get Recently added products of Farmer   | `api/v1/products/lastThirtyDayProducts/:farmerID` |    **GET** |
-| Get Product Detail   | `api/v1/products/:productID` |    **GET** |
-| Delete Product   | `api/v1/products/:productID` |    **DELETE** |
-| Update Product   | `api/v1/products/:productID` |    **PATCH** |
-| Get Products of Category   | `api/v1/products/category/:parentCategory` |    **GET** |
-| Get Product Detail for Order   | `api/v1/products/orderDetail/:productID` |    **GET** |
-
+| Action                                |                       Route                       |     Method |
+| :------------------------------------ | :-----------------------------------------------: | ---------: |
+| Get All Products                      |                `api/v1/products/`                 |    **GET** |
+| Add Product                           |                `api/v1/products/`                 |   **POST** |
+| Get Top Rated Products                |        `api/v1/products/topRatedProducts`         |    **GET** |
+| Get Discounted Products               |       `api/v1/products/discountedProducts`        |    **GET** |
+| Get Recently added products of Farmer | `api/v1/products/lastThirtyDayProducts/:farmerID` |    **GET** |
+| Get Product Detail                    |           `api/v1/products/:productID`            |    **GET** |
+| Delete Product                        |           `api/v1/products/:productID`            | **DELETE** |
+| Update Product                        |           `api/v1/products/:productID`            |  **PATCH** |
+| Get Products of Category              |    `api/v1/products/category/:parentCategory`     |    **GET** |
+| Get Product Detail for Order          |     `api/v1/products/orderDetail/:productID`      |    **GET** |
 
 ### 5. 🚚 Order Routes
 
-| Action |  Route  | Method |
-|:-----|:--------:|------:|
-| Get Orders of User   | `api/v1/orders/` | **GET** |
-| Add Order   | `api/v1/orders/` | **POST** |
-| Get Orders that need Review    |  `api/v1/orders/reviewOrders`  |   **GET** |
-| Get Earning stats of Farmer For Graph    |  `api/v1/orders/getEarningsForLast30Days`  |   **GET** |
-| Update Order   | `api/v1/orders/:orderID` |    **PATCH** |
-| Delete Order   | `api/v1/orders/:orderID` |    **DELETE** |
-
+| Action                                |                  Route                   |     Method |
+| :------------------------------------ | :--------------------------------------: | ---------: |
+| Get Orders of User                    |             `api/v1/orders/`             |    **GET** |
+| Add Order                             |             `api/v1/orders/`             |   **POST** |
+| Get Orders that need Review           |       `api/v1/orders/reviewOrders`       |    **GET** |
+| Get Earning stats of Farmer For Graph | `api/v1/orders/getEarningsForLast30Days` |    **GET** |
+| Update Order                          |         `api/v1/orders/:orderID`         |  **PATCH** |
+| Delete Order                          |         `api/v1/orders/:orderID`         | **DELETE** |
 
 ### 6. 💬 Comment Routes
 
-| Action |  Route  | Method |
-|:-----|:--------:|------:|
-| Get Number of Comments for Farmer   | `api/v1/comments/farmer/:farmerID/count` | **GET** |
-| Get Comments of Farmer   | `api/v1/comments//farmer/:farmerID` | **GET** |
-| Get Number of Comments for Product   | `api/v1/comments/product/:productID/count` | **GET** |
-| Get Comments of Product   | `api/v1/comments/product/:productID` | **GET** |
+| Action                             |                   Route                    |  Method |
+| :--------------------------------- | :----------------------------------------: | ------: |
+| Get Number of Comments for Farmer  |  `api/v1/comments/farmer/:farmerID/count`  | **GET** |
+| Get Comments of Farmer             |    `api/v1/comments//farmer/:farmerID`     | **GET** |
+| Get Number of Comments for Product | `api/v1/comments/product/:productID/count` | **GET** |
+| Get Comments of Product            |    `api/v1/comments/product/:productID`    | **GET** |
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-
 ## 🔗 Deployment
-
 
 <p align="right"><a href="#readme-top">back to top</a></p>
