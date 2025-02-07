@@ -2,7 +2,8 @@
 
 <p display="flex" align="center" justify="center">
     <img src="https://github.com/Ktn-mariam/FarmFresh-Finder/assets/113761859/148e7c5a-ad43-480c-bb06-725f77eae9df" alt="farmfresh-logo" />
-    <h3 align="center">Find Farm Fresh</h3>
+    <h2 align="center">Find Farm Fresh</h2>
+    <p>🌟 Please give this repo a star if you liked it!</p>
     <div display="flex" align="center">
       <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="farmfresh-logo" />
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="farmfresh-logo" />
@@ -25,8 +26,7 @@
     ·
     <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Request Feature</a>
     <br/>
-    <p>🌟 Please give this repo a star if you liked it!</p>
-  </p>
+</p>
 
 <details>
   <summary>Table of Contents</summary>
