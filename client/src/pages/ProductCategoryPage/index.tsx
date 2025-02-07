@@ -171,13 +171,11 @@ const ProductCategoryPage = () => {
           </div>
           <div className="grid grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-3 pl-10 gap-x-4 gap-y-1">
             {loading && <div className="py-5">Fetching products....</div>}
-            {!loading && products && products.length > 0 ? (
+            {products && products.length > 0 &&
               products.map((product, index) => {
                 return <Product key={index} product={product} />
-              })
-            ) : (
-              <div className="py-5">No products found under this category</div>
-            )}
+              })}
+            {!loading && products?.length === 0 && <div className="py-5">No products found under this category</div>}
           </div>
           <div className="mt-3 flex justify-center">
             <Pagination
