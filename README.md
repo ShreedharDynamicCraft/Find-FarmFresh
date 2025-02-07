@@ -24,6 +24,8 @@
     <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Report Bug</a>
     ·
     <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Request Feature</a>
+    <br/>
+    <p>🌟 Please give this repo a star if you liked it!</p>
   </p>
 
 <details>
