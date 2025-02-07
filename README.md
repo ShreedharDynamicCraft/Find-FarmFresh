@@ -77,7 +77,9 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
     <img src="https://github.com/user-attachments/assets/6fb27a5e-48ec-494f-bbf4-79bf6277abc1" alt="image2" width="49%"/>
 </div>
 
-<em align="center">This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</em>
+<p align="center">
+<em>This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</em>
+</p>
 
 ## 🖥️ Prerequisites
 The v22.12.0 version of Node is required for the installation and building of this application.
