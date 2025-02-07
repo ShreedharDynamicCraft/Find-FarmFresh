@@ -125,14 +125,14 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 ### 1. Authentication Routes
 
-| Action |  Route  | Method | Auth Required | Role Authorization
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-| User login for farmers and Consumers   | `/auth/login` | **POST** | **NO** | - |
-| Checks if email is already registered    |  `/auth/userExists/email/:email`  |   **GET** | **NO** | - |
-| Checks if name is already registered   | `/auth/userExists/name/:name` |    **GET** | **NO** | - |
-| Register Farmer   | `/auth/register/farmer` |    **POST** | **NO** | - |
-| Register Consumer   | `/auth/register/consumer` |    **POST** | **NO** | - |
-| Gets User Profile Information if token is present   | `/auth` |    **GET** | **YES** | - |
+| Action |  Route  | Method |
+|:--------:|:--------:|:--------:|
+| User login for farmers and Consumers   | `/auth/login` | **POST** |
+| Checks if email is already registered    |  `/auth/userExists/email/:email`  |   **GET** |
+| Checks if name is already registered   | `/auth/userExists/name/:name` |    **GET** |
+| Register Farmer   | `/auth/register/farmer` |    **POST** |
+| Register Consumer   | `/auth/register/consumer` |    **POST** |
+| Gets User Profile Information if token is present   | `/auth` |    **GET** |
 
 
 ### 2. Farmer Routes
