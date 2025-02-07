@@ -85,6 +85,17 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 
 ## ▶️ Run the project
 
+1. To run React frontend:
+```
+cd client
+npm start
+```
+2. To run NodeJS backend:
+```
+cd server
+npm start
+```
+
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ## 💡 Features
@@ -105,8 +116,6 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 - Showcase products online for visibility, even without delivery services.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
-
-## 🤖 Technologies Used
 
 ## 🛠️ Schema Design
 
