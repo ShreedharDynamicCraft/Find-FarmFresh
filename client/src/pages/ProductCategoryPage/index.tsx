@@ -17,6 +17,7 @@ const ProductCategoryPage = () => {
   const [childCategory, setChildCategory] = useState(category)
   const [ratingFilter, setRatingFilter] = useState(0)
   const [sortFilter, setSortFilter] = useState<String>('createdAt')
+  const [loading, setLoading] = useState<Boolean>(true)
   useEffect(() => {
     const fetchProductData = async () => {
       try {
@@ -29,6 +30,7 @@ const ProductCategoryPage = () => {
         const productData = await productResponse.json()
         setProducts(productData.products)
         setNoOfPages(Math.ceil(productData.nbHits / 9))
+        setLoading(false)
       } catch (error) {
         console.log('Failed to fetch products of a category: ', error)
       }
@@ -168,7 +170,8 @@ const ProductCategoryPage = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-3 pl-10 gap-x-4 gap-y-1">
-            {products && products.length > 0 ? (
+            {loading && <div className="py-5">Fetching products....</div>}
+            {!loading && products && products.length > 0 ? (
               products.map((product, index) => {
                 return <Product key={index} product={product} />
               })
