@@ -141,18 +141,27 @@ npm start
 
 ### As a consumer, you can:
 
-- Discover fresh farm produce with doorstep delivery.
-- Connect with local farmers, explore profiles, and access contact information.
-- Leave and read reviews for transparent, trustworthy relationships.
-- Join for free, enjoying an open marketplace for farmers and consumers.
+- **Register**: Create an account and buy products from local farmers
+- **Update Profile**: Update contact information as per needs.
+- **Search products**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
+- **View Farmer Profiles**: View farmer information and ratings, and access contact information.
+- **Persistent Shopping Cart**: Add products to the shopping cart and access them anytime, as they are also saved in the database.
+- **Track orders**: View all your orders, their delivery and payment statuses, and cancel them as well.
+- **Add comments**: Leave and read reviews of products and farmers for transparent, trustworthy relationships.
+- **Follow Farmers**: View recently added products of farmers you follow in your main store page.
+- **Top rated products**: View top rated products in your main store page.
+- **View discounts**: Take advantage of time limited discounts on products in your main store page.
 
 ### As a farmer, you can:
 
-- Expand your market, and sell directly to consumers beyond local markets.
-- Tailor product offerings, pricing, and promotions for market demands and consumer preferences.
-- Collect valuable consumer feedback for continuous improvement in product quality and farming practices.
-- Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
-- Showcase products online for visibility, even without delivery services.
+- **Register**: Create an account and sell directly to consumers beyond local markets.
+- **Update Profile**: Update profile information as per needs.
+- **Add and update Products**: Add and update products, add or remove promotional discounts, and change visibility.
+- **View comments**: View consumer ratings and comments on your products and on your services for continuous improvement.
+- **30 Day Sales Graph**: Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
+- **Track orders**: Track all your orders, update delivery and payment statuses, and delete them as well.
+- **Showcase products**: Showcase products online for visibility, even without delivery services.
+- **View products of other farmers**: View pricing of products of other farmers to maintain competitive.
 
 <p align="right"><a href="#top">back to top</a></p>
 
