@@ -8,7 +8,7 @@ const HeroSection = () => {
   const navigate = useNavigate()
   return (
     <div className="flex gap-5 mb-20 mt-10 justify-between items-center">
-      <div>
+      <div className='flex flex-col'>
         <div className="text-5xl font-bold">
           From farm to table, <br /> Just a click away
         </div>
