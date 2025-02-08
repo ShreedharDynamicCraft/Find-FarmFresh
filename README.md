@@ -32,28 +32,28 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#description">Description</a>
+      <a href="#-description">Description</a>
     </li>
     <li>
-      <a href="#prerequisites">Prerequisites</a>
+      <a href="#%EF%B8%8F-prerequisites">Prerequisites</a>
     </li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#environment-variables">Environment Variables</a></li>
-    <li><a href="#run-the-project">Run the project</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#schema-design">Schema Design</a></li>
+    <li><a href="#%EF%B8%8F-installation">Installation</a></li>
+    <li><a href="#-envirnoment-variables">Environment Variables</a></li>
+    <li><a href="#%EF%B8%8F-run-the-project">Run the project</a></li>
+    <li><a href="#-features">Features</a></li>
+    <li><a href="#%EF%B8%8F-schema-design">Schema Design</a></li>
     <li>
-    <a href="#api-documentation">API Documentation</a>
+    <a href="#-api-documentation">API Documentation</a>
       <ul>
-        <li><a href="#authentication-routes">Authentication Routes</a></li>
-        <li><a href="#farmer-routes">Farmer Routes</a></li>
-        <li><a href="#consumer-routes">Consumer Routes</a></li>
-        <li><a href="#product-routes">Product Routes</a></li>
-        <li><a href="#order-routes">Order Routes</a></li>
-        <li><a href="#comment-routes">Comment Routes</a></li>
+        <li><a href="#1-%EF%B8%8F-authentication-routes">Authentication Routes</a></li>
+        <li><a href="#2--farmer-routes">Farmer Routes</a></li>
+        <li><a href="#3--consumer-routes">Consumer Routes</a></li>
+        <li><a href="#4--product-routes">Product Routes</a></li>
+        <li><a href="#5--order-routes">Order Routes</a></li>
+        <li><a href="#6--comment-routes">Comment Routes</a></li>
       </ul>
     </li>
-    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#-deployment">Deployment</a></li>
   </ol>
 </details>
 
