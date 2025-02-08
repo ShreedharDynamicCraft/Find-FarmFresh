@@ -141,27 +141,27 @@ npm start
 
 ### As a consumer, you can:
 
-- **Register**: Create an account and buy products from local farmers
-- **Update Profile**: Update contact information as per needs.
-- **Search products**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
-- **View Farmer Profiles**: View farmer information and ratings, and access contact information.
-- **Persistent Shopping Cart**: Add products to the shopping cart and access them anytime, as they are also saved in the database.
-- **Track orders**: View all your orders, their delivery and payment statuses, and cancel them as well.
-- **Add comments**: Leave and read reviews of products and farmers for transparent, trustworthy relationships.
-- **Follow Farmers**: View recently added products of farmers you follow in your main store page.
-- **Top rated products**: View top rated products in your main store page.
-- **View discounts**: Take advantage of time limited discounts on products in your main store page.
+- **<u>Register</u>**: Create an account and buy products from local farmers
+- **<u>Update Profile</u>**: Update contact information as per needs.
+- **<u>Search products</u>**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
+- **<u>View Farmer Profiles</u>**: View farmer information and ratings, and access contact information.
+- **<u>Persistent Shopping Cart</u>**: Add products to the shopping cart and access them anytime, as they are also saved in the database.
+- **<u>Track orders</u>**: View all your orders, their delivery and payment statuses, and cancel them as well.
+- **<u>Add comments</u>**: Leave and read reviews of products and farmers for transparent, trustworthy relationships.
+- **<u>Follow Farmers</u>**: View recently added products of farmers you follow in your main store page.
+- **<u>Top rated products</u>**: View top rated products in your main store page.
+- **<u>View discounts</u>**: Take advantage of time limited discounts on products in your main store page.
 
 ### As a farmer, you can:
 
-- **Register**: Create an account and sell directly to consumers beyond local markets.
-- **Update Profile**: Update profile information as per needs.
-- **Add and update Products**: Add and update products, add or remove promotional discounts, and change visibility.
-- **View comments**: View consumer ratings and comments on your products and on your services for continuous improvement.
-- **30 Day Sales Graph**: Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
-- **Track orders**: Track all your orders, update delivery and payment statuses, and delete them as well.
-- **Showcase products**: Showcase products online for visibility, even without delivery services.
-- **View products of other farmers**: View pricing of products of other farmers to maintain competitive.
+- **<u>Register</u>**: Create an account and sell directly to consumers beyond local markets.
+- **<u>Update Profile</u>**: Update profile information as per needs.
+- **<u>Add and update Products</u>**: Add and update products, add or remove promotional discounts, and change visibility.
+- **<u>View comments</u>**: View consumer ratings and comments on your products and on your services for continuous improvement.
+- **<u>30 Day Sales Graph</u>**: Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
+- **<u>Track orders</u>**: Track all your orders, update delivery and payment statuses, and delete them as well.
+- **<u>Showcase products</u>**: Showcase products online for visibility, even without delivery services.
+- **<u>View products of other farmers</u>**: View pricing of products of other farmers to maintain competitive.
 
 <p align="right"><a href="#top">back to top</a></p>
 
