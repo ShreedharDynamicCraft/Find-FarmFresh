@@ -81,9 +81,8 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
     <img src="https://github.com/user-attachments/assets/e1edfe60-4916-4a57-b1ed-b31a4659c385" alt="image2" width="49%"/>
 </div>
 
-<p align="center">
-<em>This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</em>
-</p>
+> This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.
+
 
 <p align="right"><a href="#top">back to top</a></p>
 
@@ -141,27 +140,27 @@ npm start
 
 ### As a consumer, you can:
 
-- <ins>Register</ins>: Create an account and buy products from local farmers
-- <ins>Update Profile</ins>: Update contact information as per needs.
-- <ins>Search products</ins>: Discover products based on categories, filter them based on ratings and sort them as per preferences.
-- <ins>View Farmer Profiles</ins>: View farmer information and ratings, and access contact information.
-- <ins>Persistent Shopping Cart</ins>: Add products to the shopping cart and access them anytime, as they are also saved in the database.
-- <ins>Track orders</ins>: View all your orders, their delivery and payment statuses, and cancel them as well.
-- <ins>Add comments</ins>: Leave and read reviews of products and farmers for transparent, trustworthy relationships.
-- <ins>Follow Farmers</ins>: View recently added products of farmers you follow in your main store page.
-- <ins>Top rated products</ins>: View top rated products in your main store page.
-- <ins>View discounts</ins>: Take advantage of time limited discounts on products in your main store page.
+- **`Register`**: Create an account and buy products from local farmers
+- **`Update Profile`**: Update contact information as per needs.
+- **`Search products`**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
+- **`View Farmer Profiles`**: View farmer information and ratings, and access contact information.
+- **`Persistent Shopping Cart`**: Add products to the shopping cart and access them anytime, as they are also saved in the database.
+- **`Track orders`**: View all your orders, their delivery and payment statuses, and cancel them as well.
+- **`Add comments`**: Leave and read reviews of products and farmers for transparent, trustworthy relationships.
+- **`Follow Farmers`**: View recently added products of farmers you follow in your main store page.
+- **`Top rated products`**: View top rated products in your main store page.
+- **`View discounts`**: Take advantage of time limited discounts on products in your main store page.
 
 ### As a farmer, you can:
 
-- <ins>Register</ins>: Create an account and sell directly to consumers beyond local markets.
-- <ins>Update Profile</ins>: Update profile information as per needs.
-- <ins>Add and update Products</ins>: Add and update products, add or remove promotional discounts, and change visibility.
-- <ins>View comments</ins>: View consumer ratings and comments on your products and on your services for continuous improvement.
-- <ins>30 Day Sales Graph</ins>: Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
-- <ins>Track orders</ins>: Track all your orders, update delivery and payment statuses, and delete them as well.
-- <ins>Showcase products</ins>: Showcase products online for visibility, even without delivery services.
-- <ins>View products of other farmers</ins>: View pricing of products of other farmers to maintain competitive.
+- **`Register`**: Create an account and sell directly to consumers beyond local markets.
+- **`Update Profile`**: Update profile information as per needs.
+- **`Add and update Products`**: Add and update products, add or remove promotional discounts, and change visibility.
+- **`View comments`**: View consumer ratings and comments on your products and on your services for continuous improvement.
+- **`30 Day Sales Graph`**: Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
+- **`Track orders`**: Track all your orders, update delivery and payment statuses, and delete them as well.
+- **`Showcase products`**: Showcase products online for visibility, even without delivery services.
+- **`View products of other farmers`**: View pricing of products of other farmers to maintain competitive.
 
 <p align="right"><a href="#top">back to top</a></p>
 
@@ -176,7 +175,7 @@ npm start
 ### 1. 🛡️ Authentication Routes
 
 | Action                                            |                 Route                 |   Method |
-| :------------------------------------------------ | :-----------------------------------: | -------: |
+| :------------------------------------------------ | :-----------------------------------**: | -------: |
 | User login for farmers and Consumers              |          `api/v1/auth/login`          | **POST** |
 | Checks if email is already registered             | `api/v1/auth/userExists/email/:email` |  **GET** |
 | Checks if name is already registered              |  `api/v1/auth/userExists/name/:name`  |  **GET** |
