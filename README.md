@@ -152,6 +152,8 @@ npm start
 
 ## 🛠️ Schema Design
 
+![Blank diagram (3)](https://github.com/user-attachments/assets/491524c4-c373-496a-b676-62ae829800ee)
+
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ## 🚧 API Documentation
