@@ -22,9 +22,9 @@
     <br/>
     <a href="">View Demo</a>
     ·
-    <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Report Bug</a>
+    <a href="https://github.com/Ktn-mariam/Find-FarmFresh/issues/new?template=Blank+issue">Report Bug</a>
     ·
-    <a href="https://github.com/Ktn-mariam/FarmFresh-Finder/issues">Request Feature</a>
+    <a href="https://github.com/Ktn-mariam/Find-FarmFresh/issues/new?template=Blank+issue">Request Feature</a>
     <br/>
 </p>
 
@@ -80,6 +80,8 @@ FarmFresh Finder is a platform designed to seamlessly connect farmers with consu
 <p align="center">
 <em>This project is for demonstration purposes only. The data displayed or curated is for illustrative purposes only and does not represent real-world information.</em>
 </p>
+
+<p align="right"><a href="#top">back to top</a></p>
 
 ## 🖥️ Prerequisites
 The v22.12.0 version of Node is required for the installation and building of this application.
