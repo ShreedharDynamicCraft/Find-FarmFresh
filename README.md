@@ -1,4 +1,4 @@
-<p align="center">🌟 Give this repo a star if you liked it!</p>
+<p align="center">⭐ Give this repo a star if you liked it!</p>
 &nbsp;
 
 <p display="flex" align="center" justify="center">
@@ -100,6 +100,7 @@ npm install
 cd server
 npm install
 ```
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 ## 📚 Envirnoment variables
 This project is connected to a mongodb database and cloudinary for storing images. Create a .env file in the server side of the application with the following required variables:
@@ -112,6 +113,8 @@ CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
 CLOUDINARY_URL=
 ```
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 ## ▶️ Run the project
 
@@ -221,5 +224,12 @@ npm start
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ## 🔗 Deployment
+
+This application was deployed on Vercel. Make sure you enter the Environment Variables before deploying it. You also need to add vercel.json file with the following content:
+```
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
+```
+
+You also need to make sure the main file is named `index.ts` and is in the /api folder.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
