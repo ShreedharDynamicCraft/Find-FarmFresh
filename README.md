@@ -175,7 +175,7 @@ npm start
 ### 1. 🛡️ Authentication Routes
 
 | Action                                            |                 Route                 |   Method |
-| :------------------------------------------------ | :-----------------------------------**: | -------: |
+| :------------------------------------------------ | :-----------------------------------: | -------: |
 | User login for farmers and Consumers              |          `api/v1/auth/login`          | **POST** |
 | Checks if email is already registered             | `api/v1/auth/userExists/email/:email` |  **GET** |
 | Checks if name is already registered              |  `api/v1/auth/userExists/name/:name`  |  **GET** |
