@@ -32,24 +32,28 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#description">Description</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#prerequisites">Prerequisites</a>
+    </li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#environment-variables">Environment Variables</a></li>
+    <li><a href="#run-the-project">Run the project</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#schema-design">Schema Design</a></li>
+    <li>
+    <a href="#api-documentation">API Documentation</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#authentication-routes">Authentication Routes</a></li>
+        <li><a href="#farmer-routes">Farmer Routes</a></li>
+        <li><a href="#consumer-routes">Consumer Routes</a></li>
+        <li><a href="#product-routes">Product Routes</a></li>
+        <li><a href="#order-routes">Order Routes</a></li>
+        <li><a href="#comment-routes">Comment Routes</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#deployment">Deployment</a></li>
   </ol>
 </details>
 
