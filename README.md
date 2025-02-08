@@ -141,27 +141,27 @@ npm start
 
 ### As a consumer, you can:
 
-- **<em>Register</em>**: Create an account and buy products from local farmers
-- **<em>Update Profile</em>**: Update contact information as per needs.
-- **<em>Search products</em>**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
-- **<em>View Farmer Profiles</em>**: View farmer information and ratings, and access contact information.
-- **<em>Persistent Shopping Cart</em>**: Add products to the shopping cart and access them anytime, as they are also saved in the database.
-- **<em>Track orders</em>**: View all your orders, their delivery and payment statuses, and cancel them as well.
-- **<em>Add comments</em>**: Leave and read reviews of products and farmers for transparent, trustworthy relationships.
-- **<em>Follow Farmers</em>**: View recently added products of farmers you follow in your main store page.
-- **<em>Top rated products</em>**: View top rated products in your main store page.
-- **<em>View discounts</em>**: Take advantage of time limited discounts on products in your main store page.
+- **<ins>Register</ins>**: Create an account and buy products from local farmers
+- **<ins>Update Profile</ins>**: Update contact information as per needs.
+- **<ins>Search products</ins>**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
+- **<ins>View Farmer Profiles</ins>**: View farmer information and ratings, and access contact information.
+- **<ins>Persistent Shopping Cart</ins>**: Add products to the shopping cart and access them anytime, as they are also saved in the database.
+- **<ins>Track orders</ins>**: View all your orders, their delivery and payment statuses, and cancel them as well.
+- **<ins>Add comments</ins>**: Leave and read reviews of products and farmers for transparent, trustworthy relationships.
+- **<ins>Follow Farmers</ins>**: View recently added products of farmers you follow in your main store page.
+- **<ins>Top rated products</ins>**: View top rated products in your main store page.
+- **<ins>View discounts</ins>**: Take advantage of time limited discounts on products in your main store page.
 
 ### As a farmer, you can:
 
-- **<em>Register</em>**: Create an account and sell directly to consumers beyond local markets.
-- **<em>Update Profile</em>**: Update profile information as per needs.
-- **<em>Add and update Products</em>**: Add and update products, add or remove promotional discounts, and change visibility.
-- **<em>View comments</em>**: View consumer ratings and comments on your products and on your services for continuous improvement.
-- **<em>30 Day Sales Graph</em>**: Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
-- **<em>Track orders</em>**: Track all your orders, update delivery and payment statuses, and delete them as well.
-- **<em>Showcase products</em>**: Showcase products online for visibility, even without delivery services.
-- **<em>View products of other farmers</em>**: View pricing of products of other farmers to maintain competitive.
+- **<ins>Register</ins>**: Create an account and sell directly to consumers beyond local markets.
+- **<ins>Update Profile</ins>**: Update profile information as per needs.
+- **<ins>Add and update Products</ins>**: Add and update products, add or remove promotional discounts, and change visibility.
+- **<ins>View comments</ins>**: View consumer ratings and comments on your products and on your services for continuous improvement.
+- **<ins>30 Day Sales Graph</ins>**: Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
+- **<ins>Track orders</ins>**: Track all your orders, update delivery and payment statuses, and delete them as well.
+- **<ins>Showcase products</ins>**: Showcase products online for visibility, even without delivery services.
+- **<ins>View products of other farmers</ins>**: View pricing of products of other farmers to maintain competitive.
 
 <p align="right"><a href="#top">back to top</a></p>
 
