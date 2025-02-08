@@ -215,7 +215,7 @@ function ProductDetailPage() {
   const quantityOptions = [1, 2, 3, 4, 5]
 
   return (
-    <div>
+    <>
       <StoreNavbar />
       {!isLoading ? (
         <div className="md:px-36 px-14 pt-10 pb-36">
@@ -481,7 +481,7 @@ function ProductDetailPage() {
           </div>
         </div>
       )}
-    </div>
+    </>
   )
 }
 

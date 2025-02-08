@@ -219,7 +219,7 @@ const ReviewsModal: React.FC<ReviewsModalProps> = ({
   }
 
   return (
-    <div>
+    <>
       <GratitudeModal
         openGratitudeModal={openGratitudeModal}
         setOpenGratitudeModal={setOpenGratitudeModal}
@@ -290,7 +290,7 @@ const ReviewsModal: React.FC<ReviewsModalProps> = ({
           )}
         </div>
       </Modal>
-    </div>
+    </>
   )
 }
 

@@ -158,13 +158,13 @@ const SignInPage = () => {
             </button>
           </div>
         </div>
-        <div>
+        <>
           <AuthForm
             signUpFormik={null}
             logInFormik={formikProps}
             isLogIn={true}
           />
-        </div>
+        </>
       </div>
     </div>
   )

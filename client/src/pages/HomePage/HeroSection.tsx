@@ -8,7 +8,7 @@ const HeroSection = () => {
   const navigate = useNavigate()
   return (
     <div className="flex gap-5 mb-20 mt-10 justify-between items-center">
-      <div>
+      <>
         <div className="text-5xl font-bold">
           From farm to table, <br /> Just a click away
         </div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
             </button>
           </NavLink>
         </div>
-      </div>
+      </>
       <div className="flex flex-col gap-5">
         <div className="h-80 w-112">
           <img

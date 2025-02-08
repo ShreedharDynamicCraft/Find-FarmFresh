@@ -75,7 +75,7 @@ const StorePage = () => {
     fetchFollowingFarmerProducts()
   }, [logInData])
   return (
-    <div>
+    <>
       <div className="md:px-36 px-14 py-5 text-xs md:text-sm font-serif">
         <CategoryNavbar />
       </div>
@@ -119,7 +119,7 @@ const StorePage = () => {
           />
         )}
       </div>
-    </div>
+    </>
   )
 }
 

@@ -38,7 +38,7 @@ const ConsumerProfile = () => {
   }
 
   return (
-    <div>
+    <>
       <StoreNavbar />
       <ReviewsModal
         openReviewModal={openReviewModal}
@@ -96,7 +96,7 @@ const ConsumerProfile = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

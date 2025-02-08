@@ -83,7 +83,7 @@ const Order: React.FC<OrderPropsType> = ({ order }) => {
   }
 
   return (
-    <div>
+    <>
       <div className="flex flex-col gap-2">
         <div className="flex items-center justify-between">
           <div className="text-md font-bold">{farmerName}</div>
@@ -147,7 +147,7 @@ const Order: React.FC<OrderPropsType> = ({ order }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

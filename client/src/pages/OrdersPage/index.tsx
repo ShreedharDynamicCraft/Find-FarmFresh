@@ -9,7 +9,7 @@ const OrdersPage = () => {
   return (
     <div className="md:px-36 px-14 pt-10 pb-52">
       <h1 className="text-2xl font-bold mb-6">Your Orders</h1>
-      <div>
+      <>
         <Accordion>
           <AccordionSummary
             aria-controls="panel1a-content"
@@ -39,7 +39,7 @@ const OrdersPage = () => {
           orders.map((order, key) => {
             return <Order key={key} order={order} />
           })}
-      </div>
+      </>
       <div className="flex justify-center mt-4">
         <button
           className="px-4 py-1 bg-gray-200 rounded-3xl hover:cursor-pointer"

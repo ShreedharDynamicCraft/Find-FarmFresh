@@ -1,14 +1,14 @@
 const ContactUs = () => {
   return (
     <div className="my-20 flex flex-col gap-10">
-      <div>
+      <>
         <h1 className="text-3xl text-center font-bold">Contact Us</h1>
         <p className="mt-3">
           Have questions, suggestions, or need assistance? We're here to help!
           Reach out to us using the form below, and our team will get back to
           you as soon as possible.
         </p>
-      </div>
+      </>
       <div className="flex gap-10">
         <div className="w-1/2">
           <img

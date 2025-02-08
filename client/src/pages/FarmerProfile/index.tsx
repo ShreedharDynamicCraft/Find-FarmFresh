@@ -189,7 +189,7 @@ const FarmerProfile: React.FC<FarmerProfileProps> = ({ editable }) => {
   }
 
   return (
-    <div>
+    <>
       {!editable && <StoreNavbar />}
       <div className="md:px-36 px-14 pt-10 mb-32 font-noto">
         <div className="flex items-center justify-between mx-10 mb-5">
@@ -289,7 +289,7 @@ const FarmerProfile: React.FC<FarmerProfileProps> = ({ editable }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

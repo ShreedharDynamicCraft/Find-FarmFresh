@@ -3,14 +3,14 @@ import FormatQuoteIcon from '@mui/icons-material/FormatQuote'
 const Testimonials = () => {
   return (
     <div className="my-20 flex flex-col gap-14">
-      <div>
+      <>
         <h1 className="text-3xl font-bold text-center">
           What our Users are saying
         </h1>
         <h5 className="text-lg mt-2 text-center">
           We are happy to get your reviews
         </h5>
-      </div>
+      </>
       <div className="grid grid-cols-3 gap-10">
         <div className="col-span-1 rounded-md bg-beige  px-6 py-8">
           <div className="flex justify-center">
