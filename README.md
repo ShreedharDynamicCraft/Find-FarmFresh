@@ -144,9 +144,9 @@ npm start
 
 ### As a consumer, you can:
 
-- **`Register`**: Create an account and buy products from local farmers
-- **`Update Profile`**: Update contact information as per needs.
-- **`Search products`**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
+- **`REGISTER`**: Create an account and buy products from local farmers
+- **`UPDATE PROFILE`**: Update contact information as per needs.
+- **`SEARCH AND FILTER PRODUCTS`**: Discover products based on categories, filter them based on ratings and sort them as per preferences.
 - **`View Farmer Profiles`**: View farmer information and ratings, and access contact information.
 - **`Persistent Shopping Cart`**: Add products to the shopping cart and access them anytime, as they are also saved in the database.
 - **`Track orders`**: View all your orders, their delivery and payment statuses, and cancel them as well.
