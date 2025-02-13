@@ -237,7 +237,7 @@ npm start
 | Action                             |                   Route                    |  Method |
 | :--------------------------------- | :----------------------------------------: | ------: |
 | Get Number of Comments for Farmer  |  `api/v1/comments/farmer/:farmerID/count`  | **GET** |
-| Get Comments of Farmer             |    `api/v1/comments//farmer/:farmerID`     | **GET** |
+| Get Comments of Farmer             |    `api/v1/comments/farmer/:farmerID`     | **GET** |
 | Get Number of Comments for Product | `api/v1/comments/product/:productID/count` | **GET** |
 | Get Comments of Product            |    `api/v1/comments/product/:productID`    | **GET** |
 
