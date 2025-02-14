@@ -29,6 +29,8 @@ const ProductCategoryPage = () => {
         const productResponse = await fetch(fetchDataRoute)
         const productData = await productResponse.json()
         setProducts(productData.products)
+        console.log("Fetching products");
+        
         setNoOfPages(Math.ceil(productData.nbHits / 9))
         setLoading(false)
       } catch (error) {
