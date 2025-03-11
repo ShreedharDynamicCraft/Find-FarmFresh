@@ -1,0 +1,23 @@
+[
+    {
+      "_id": "65a5f26f7c8e4b1a8d9f89e1",
+      "userID": "65a2f13c7c8e4b1a8d9f56b1",
+      "username": "Amit Sharma",
+      "rating": 5,
+      "title": "Great Quality",
+      "description": "The tomatoes were fresh and juicy!",
+      "createdAt": "2025-03-10T15:00:00Z",
+      "productID": "65a3f24d7c8e4b1a8d9f67c1"
+    },
+    {
+      "_id": "65a5f26f7c8e4b1a8d9f89e2",
+      "userID": "65a2f13c7c8e4b1a8d9f56b2",
+      "username": "Priya Verma",
+      "rating": 4,
+      "title": "Good milk quality",
+      "description": "Fresh and organic milk, but slightly expensive.",
+      "createdAt": "2025-03-11T16:00:00Z",
+      "productID": "65a3f24d7c8e4b1a8d9f67c2"
+    }
+  ]
+  

@@ -265,7 +265,7 @@ function ProductDetailPage() {
                     {farmer?.location}
                   </div>
                   <div className="flex mt-6">
-                    <p className="text-sm md:text-base py-0.5 pr-1">AED</p>
+                    <p className="text-sm md:text-base py-0.5 pr-1">₹</p>
                     <p className="text-red-600">
                       {product?.hasDiscount ? (
                         <span className="font-bold text-xl md:text-4xl">

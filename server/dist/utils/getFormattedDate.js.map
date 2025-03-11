@@ -1,0 +1,1 @@
+{"version":3,"file":"getFormattedDate.js","sourceRoot":"","sources":["../../utils/getFormattedDate.ts"],"names":[],"mappings":";;;;;AAEA,kEAGC;AALD,oDAA2B;AAE3B,SAAgB,2BAA2B,CAAC,IAAU;IACpD,MAAM,aAAa,GAAG,IAAA,gBAAM,EAAC,IAAI,CAAC,CAAC,MAAM,CAAC,OAAO,CAAC,CAAA;IAClD,OAAO,aAAa,CAAA;AACtB,CAAC"}

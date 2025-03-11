@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import EditIcon from '@mui/icons-material/Edit'
 import DeleteIcon from '@mui/icons-material/Delete'
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'
@@ -46,6 +46,10 @@ const ProductCard: React.FC<ProductCardProps> = ({
     hasDiscount,
     discountPercentage,
   } = product
+
+  const location = useLocation();
+  const negPrice = location.state?.price || "Not available";
+  console.log(negPrice)
 
   const handleProductUpdate = async (): Promise<void> => {
     const updateDisplay = {
@@ -130,7 +134,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             <div className="w-full">
               <div className="flex justify-between">
                 <div className="flex">
-                  <p className="text-xs py-0.5 pr-1">AED</p>
+                  <p className="text-xs py-0.5 pr-1">₹</p>
                   <p>
                     {hasDiscount ? (
                       <span className="font-bold">

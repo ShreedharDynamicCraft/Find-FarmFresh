@@ -80,7 +80,7 @@ const ProductCart: React.FC<ProductCartProps> = ({
             </NavLink>
             <div className="flex items-center justify-between">
               <div className="flex items-center">
-                <p className="text-sm py-0.5 pr-1">AED</p>
+                <p className="text-sm py-0.5 pr-1">₹</p>
                 <p>
                   <span className="font-bold text-lg">
                     {hasDiscount

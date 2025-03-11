@@ -4,9 +4,10 @@ import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled'
 
 function Footer() {
   return (
-    <div className="bg-night p-24 justify-center items-center text-white text-sm grid gap-20 grid-cols-1 md:grid-cols-4">
+    <div className="bg-night p-24 justify-center items-center text-white text-sm grid gap-20 grid-cols-1 md:grid-cols-4 bg-green">
       <div className="col-span-2">
-        <img className="h-16" src="/farmfresh-logo-without-bg.png" alt="" />
+        <img className="h-16"             src="./logo.png"
+ alt="" />
         <p className="pt-4">
           An innovative platform empowering farmers to showcase their yields and
           enabling consumers to easily explore and purchase freshly grown
@@ -26,15 +27,15 @@ function Footer() {
         <h4 className="text-bold uppercase">Contact us</h4>
         <div className="flex gap-1">
           <LocationOnIcon style={{ color: '#fff' }} />
-          <p>Silicon Oasis, Dubai, UAE</p>
+          <p>Mantripukhari Imphal, Manipur, India</p>
         </div>
         <div className="flex gap-1">
           <EmailIcon style={{ color: '#fff' }} />
-          <p>helpdesk@farmfreshfinder.com</p>
+          <p>helpdesk@gmail.com</p>
         </div>
         <div className="flex gap-1">
           <PhoneEnabledIcon style={{ color: '#fff' }} />
-          <p>+971501234567</p>
+          <p>+91XXXXXXXX</p>
         </div>
       </div>
     </div>

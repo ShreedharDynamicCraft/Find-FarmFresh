@@ -130,7 +130,7 @@ const Order: React.FC<OrderPropsType> = ({ order }) => {
             <div className="flex flex-col items-end">
               <h1 className="font-bold">Total:</h1>
               <div className="flex items-center">
-                <p className="text-md pr-1">AED</p>
+                <p className="text-md pr-1">₹</p>
                 <p className="font-bold text-2xl text-red-700">{totalPrice}</p>
               </div>
               {showCancelOrderOption && deliveryStatus === Status.Waiting && (

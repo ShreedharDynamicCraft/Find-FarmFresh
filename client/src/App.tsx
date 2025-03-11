@@ -17,8 +17,16 @@ import { FormikContextProvider } from './context/formik-context'
 import { Role } from './types/Auth'
 import { ShoppingCartContextProvider } from './context/shoppingCart'
 import MyProfilePage from './pages/MyProfilePage'
-
+import ChatPage from './pages/ShoppingCartPage/Nego'
 export const APIURL = 'https://findfarmfreshbackend.vercel.app'
+
+// import FarmerCommunityHome from './pages/FarmerCommunityHome'
+// import AgriRental from './pages/AgriRental'
+// import NewQuestionPage from './pages/NewQuestionPage'
+// import QuestionPage from './pages/QuestionPage'
+
+// export const APIURL = 'https://farmfresh-rkn3oar3d-shreedhar-anands-projects.vercel.app'
+
 
 function App() {
   const { logInData } = useContext(AuthenticationContext)
@@ -28,6 +36,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
+     
           <Route path="/" element={<HomePage />} />
           <Route path="/store" element={<StorePage />} />
           <Route
@@ -55,6 +64,8 @@ function App() {
             }
           />
           <Route path="/sign-in" element={<SignInPage />} />
+          <Route path="/nego" element={<ChatPage userRole="admin" userId="123" />} />
+
           <Route path="/my-profile" element={<MyProfilePage />} />
           {logInData.role === Role.Consumer && (
             <Route path="/shopping-cart" element={<ShoppingCartPage />} />

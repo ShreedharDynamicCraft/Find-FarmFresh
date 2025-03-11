@@ -1,0 +1,27 @@
+[
+    {
+      "_id": "65a2f13c7c8e4b1a8d9f56b1",
+      "image": "consumer1.jpg",
+      "name": "Amit Sharma",
+      "email": "amit@example.com",
+      "password": "hashedpassword3",
+      "mobileNo": "9876543212",
+      "location": "Delhi",
+      "locationCoordinates": { "lat": 28.7041, "lng": 77.1025 },
+      "following": [],
+      "cart": {}
+    },
+    {
+      "_id": "65a2f13c7c8e4b1a8d9f56b2",
+      "image": "consumer2.jpg",
+      "name": "Priya Verma",
+      "email": "priya@example.com",
+      "password": "hashedpassword4",
+      "mobileNo": "9876543213",
+      "location": "Mumbai",
+      "locationCoordinates": { "lat": 19.076, "lng": 72.8777 },
+      "following": [],
+      "cart": {}
+    }
+  ]
+  

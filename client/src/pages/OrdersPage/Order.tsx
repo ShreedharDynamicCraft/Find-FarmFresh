@@ -189,7 +189,7 @@ const Order: React.FC<OrderPropsType> = ({ order }) => {
             <div className="col-span-1 text-center">
               {order.products.length}
             </div>
-            <div className="col-span-1">AED {order.totalPrice}</div>
+            <div className="col-span-1">₹ {order.totalPrice}</div>
             <div className="col-span-1 ml-1">
               <select
                 className="p-1"
@@ -287,7 +287,7 @@ const Order: React.FC<OrderPropsType> = ({ order }) => {
                       x {product.quantity}
                     </div>
                     <div className="col-span-2 flex items-center">
-                      AED{' '}
+                      ₹{' '}
                       {`${
                         order.products[index].productPrice * product.quantity
                       }`}

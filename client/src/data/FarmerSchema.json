@@ -1,0 +1,29 @@
+[
+    {
+      "_id": "65a1f23b7c8e4b1a8d9f45a1",
+      "image": "farmer1.jpg",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@example.com",
+      "password": "hashedpassword1",
+      "description": "Organic vegetable farmer",
+      "mobileNo": "9876543210",
+      "location": "Patna, Bihar",
+      "locationCoordinates": { "lat": 25.5941, "lng": 85.1376 },
+      "farmerRating": { "average": 4.7, "reviews": 30 },
+      "comments": []
+    },
+    {
+      "_id": "65a1f23b7c8e4b1a8d9f45a2",
+      "image": "farmer2.jpg",
+      "name": "Suresh Yadav",
+      "email": "suresh@example.com",
+      "password": "hashedpassword2",
+      "description": "Dairy farm owner",
+      "mobileNo": "9876543211",
+      "location": "Varanasi, UP",
+      "locationCoordinates": { "lat": 25.3176, "lng": 82.9739 },
+      "farmerRating": { "average": 4.5, "reviews": 25 },
+      "comments": []
+    }
+  ]
+  

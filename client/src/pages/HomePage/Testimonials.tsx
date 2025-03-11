@@ -26,10 +26,10 @@ const Testimonials = () => {
             for any farmer. Highly recommended!
           </p>
           <h5 className="text-center text-sm mt-3">
-            Mariam Khatoon - <span className="italic">Farmer</span>
+            Aryan Manji - <span className="italic">Farmer</span>
           </h5>
           <div className="text-sm text-gray-600 text-center">
-            November 15, 2023
+            November 15, 2024
           </div>
         </div>
         <div className="col-span-1 rounded-md bg-beige  px-6 py-8">
@@ -40,15 +40,13 @@ const Testimonials = () => {
             Freshness Delivered to My Doorstep
           </h3>
           <p className="text-center mt-3">
-            I've never had such consistently fresh produce delivered straight to
-            my door. The variety is impressive, and the quality is unmatched.
-            It's changed the way my family eats. So grateful for this service!
+          মোৰ দ্বাৰত একেধাৰে এতিয়া এইদৰে টাটকা সব্জি আৰু ফল কেতিয়াও পাই নাছিলোঁ। বিভিন্নতাটো আশ্চৰ্যজনক, আৰু গুণগত মান অপূৰ্ব। এই সেৱাই মোৰ পৰিয়ালৰ খোৱাৰ অভ্যাস সলনি কৰিছে। অত্যন্ত কৃতজ্ঞ এই সেৱাটোৰ বাবে!
           </p>
           <h5 className="text-center text-sm mt-3">
-            Mariam Khatoon - <span className="italic">Farmer</span>
+            Aman Khatoon - <span className="italic">Farmer</span>
           </h5>
           <div className="text-sm text-gray-600 text-center">
-            November 15, 2023
+            March 10, 2025
           </div>
         </div>
         <div className="col-span-1 rounded-md bg-beige px-6 py-8">
@@ -59,16 +57,13 @@ const Testimonials = () => {
             Supporting Local Agriculture
           </h3>
           <p className="text-center mt-3">
-            As a conscious consumer, this platform aligns perfectly with my
-            values. Connecting directly with local farmers makes every purchase
-            meaningful. The transparency and quality keep me coming back. A
-            fantastic initiative!
+          एक जागरूक उपभोक्ता के रूप में, यह प्लेटफ़ॉर्म मेरे मूल्यों के साथ पूरी तरह मेल खाता है। स्थानीय किसानों से सीधे जुड़कर हर खरीद को सार्थक बनाता है। पारदर्शिता और गुणवत्ता मुझे बार-बार यहां लौटने के लिए प्रेरित करती है। एक शानदार पहल!
           </p>
           <h5 className="text-center text-sm mt-3">
-            Mariam Khatoon - <span className="italic">Farmer</span>
+            Shyam laal  - <span className="italic">Farmer</span>
           </h5>
           <div className="text-sm text-gray-600 text-center">
-            November 15, 2023
+            Feburary 15, 2025
           </div>
         </div>
       </div>

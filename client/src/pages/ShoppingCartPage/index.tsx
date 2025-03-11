@@ -4,12 +4,14 @@ import CartItemForFarmer from './CartItemForFarmer'
 import ShoppingCartContext from '../../context/shoppingCart'
 import AuthenticationContext from '../../context/authentication'
 import { CartItem } from '../../types/Order'
+import { useNavigate } from 'react-router-dom';
 
 const ShoppingCartPage = () => {
   const { cart, checkOutAllHandler } = useContext(ShoppingCartContext)
   const { logInData } = useContext(AuthenticationContext)
   const [totalPrice, setTotalPrice] = useState(0)
   const [totalItems, setTotalItems] = useState(0)
+  const navigate = useNavigate();
 
   const findTotalPriceAndItems = () => {
     const sumPrice =
@@ -30,6 +32,12 @@ const ShoppingCartPage = () => {
   useEffect(() => {
     findTotalPriceAndItems()
   }, [cart])
+
+  const handleNegotiate = () => {
+    if (window.confirm('Do you want to negotiate the price?')) {
+      navigate('/nego');
+    }
+  }
 
   return (
     <div className="font-workSans">
@@ -61,7 +69,7 @@ const ShoppingCartPage = () => {
               </div>
               <div className="border-t border-gray-300 flex items-center b justify-between mt-4">
                 <div className="mt-4">Total Price:</div>
-                <div className="font-bold mt-4 text-xl">AED {totalPrice}</div>
+                <div className="font-bold mt-4 text-xl">₹ {totalPrice}</div>
               </div>
               <button
                 onClick={() => {
@@ -72,6 +80,12 @@ const ShoppingCartPage = () => {
                 className="w-full py-2 mt-8 bg-yellow-400 rounded-lg"
               >
                 Checkout All
+              </button>
+              <button
+                onClick={handleNegotiate}
+                className="w-full py-2 mt-4 bg-yellow-400 rounded-lg"
+              >
+                Negotiate
               </button>
             </div>
           </div>

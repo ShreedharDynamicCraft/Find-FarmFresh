@@ -34,7 +34,7 @@ const Product: React.FC<ProductPropType> = ({ product }) => {
             </NavLink>
             <div className="flex justify-between">
               <div className="flex">
-                <p className="text-xs md:text-sm py-0.5 pr-1">AED</p>
+                <p className="text-xs md:text-sm py-0.5 pr-1">₹</p>
                 <p className="text-red-600">
                   {product.hasDiscount ? (
                     <span className="font-bold text-md md:text-xl">

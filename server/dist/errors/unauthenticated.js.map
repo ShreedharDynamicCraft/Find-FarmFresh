@@ -1,0 +1,1 @@
+{"version":3,"file":"unauthenticated.js","sourceRoot":"","sources":["../../errors/unauthenticated.ts"],"names":[],"mappings":";;;;;AAAA,yDAA+C;AAC/C,kEAA2C;AAE3C,MAAM,oBAAqB,SAAQ,sBAAc;IAE/C,YAAY,OAAe;QACzB,KAAK,CAAC,OAAO,CAAC,CAAA;QACd,IAAI,CAAC,UAAU,GAAG,+BAAW,CAAC,YAAY,CAAA;IAC5C,CAAC;CACF;AAED,kBAAe,oBAAoB,CAAA"}

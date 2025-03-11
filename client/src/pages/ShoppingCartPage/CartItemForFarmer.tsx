@@ -139,7 +139,7 @@ const CartItemForFarmer: React.FC<CartItemForFarmerPropsType> = ({
           <div className="flex flex-col items-end">
             <h1 className="text-lg font-bold">Total:</h1>
             <div className="flex items-center text-xl">
-              <p className="text-md pr-1">AED</p>
+              <p className="text-md pr-1">₹</p>
               <p className="font-bold text-red-700">{cartItem.totalPrice}</p>
             </div>
           </div>

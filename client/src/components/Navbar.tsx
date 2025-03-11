@@ -1,49 +1,66 @@
-import { useContext } from 'react'
-import { NavLink } from 'react-router-dom'
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag'
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
-import AccountCircleIcon from '@mui/icons-material/AccountCircle'
-import ListAltIcon from '@mui/icons-material/ListAlt'
-import AuthenticationContext from '../context/authentication'
-import { Role } from '../types/Auth'
+import { useContext, useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import ListAltIcon from '@mui/icons-material/ListAlt';
+import AuthenticationContext from '../context/authentication';
+import { Role } from '../types/Auth';
+
 
 function Navbar() {
-  const { logInData } = useContext(AuthenticationContext)
+  const { logInData } = useContext(AuthenticationContext);
+  const [location, setLocation] = useState('Fetching location...');
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLocation('Current Location - Guwahati');
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <nav className="flex justify-between items-center font-noto px-36 py-3 shadow-sm">
+    <nav className="flex justify-between items-center font-noto px-36 py-3 shadow-sm bg-light-green">
       <div>
         <NavLink to="/">
           <img
-            className="h-12"
-            src="/farmfresh-logo-black-without-bg.png"
+            className="h-16"
+            src="./logo.png"
+            
             alt="home"
           />
         </NavLink>
       </div>
       <div className="flex gap-9 items-center">
-        <ul className="flex gap-4">
-          <li>
-            <a href="/">APIs</a>
-          </li>
+        <span className="text-sm font-semibold">{location}</span>
+        <ul className="flex gap-4 font-semibold">
+          {logInData.loggedIn && logInData.role === Role.Farmer && (
+            <li>
+              <NavLink to="http://localhost:7195/">Farmer Community</NavLink>
+            </li>
+          )}
           <li>
             <a
-              href="https://github.com/Ktn-mariam/FarmFresh-Finder"
+              href="localhost:XXXXX"
               target="_blank"
-              rel="noreferrer"
+              rel="AI Power Disease Detection"
             >
-              GitHub
+              
             </a>
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/mariamkhatoon/"
+              href="localhost:XXXXX"
               target="_blank"
               rel="noreferrer"
             >
-              LinkedIn
+               AI Powered Disese Prediction
             </a>
           </li>
         </ul>
+        <NavLink to="http://localhost:7195/rent" className="font-semibold">
+  Rental Service
+</NavLink>
         <ul className="flex gap-4 items-center">
           <li>
             <NavLink to="/store">
@@ -72,7 +89,7 @@ function Navbar() {
         </ul>
       </div>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
